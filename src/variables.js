@@ -56,6 +56,6 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return (c === null || c === undefined);
+  return (c === null || c === 'undefined');
   //end your code
 }
