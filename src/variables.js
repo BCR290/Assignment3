@@ -9,11 +9,21 @@ yourNumberIs: a string that says "Your Number is `x`." where `x` is replaced by
 in input `a`
 a: the original a number
 */
-function variableModification(a) {
+
+//var a = 7; //prompt("Please enter a whole, positive number: ");
+function variableModification(a) { 
+
   var plus5;
   var asString;
   var yourNumberIs;
   //your code here
+  
+  //while (a<=0){
+  //  a = prompt ("Error, Please enter a whole, positive number:")
+  //}
+  plus5 = a + 5;
+  asString = a.toString();
+  yourNumberIs = "Your Number is "+asString;
 
   //end your code
   return [plus5, asString, yourNumberIs, a];
@@ -26,10 +36,14 @@ b: could be anything
 Output:
 return true if b is a primitive string value (also known as a string literal),
 false otherwise
-*/
+*/  
+
+//var b = prompt("Enter something: ");
 function isString(b) {
   //your code here
-  return undefined;
+
+  return (typeof b === "string");
+ 
   //end your code
 }
 
@@ -42,6 +56,6 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return undefined;
+  return (c === null || c === undefined);
   //end your code
 }
