@@ -13,7 +13,7 @@
 */
 
 //your code here
-var uselessFunction = function() {
+function: uselessFunction() {
 	return null;
 }
 //end your code
