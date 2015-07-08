@@ -90,6 +90,7 @@ var parseGit = function(logArray) {
 				message += " ";
 			}
 		}
+		message = message.split("\"")[1];
 		console.log(hash);
 		console.log(date);
 		console.log(message);
