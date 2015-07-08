@@ -91,9 +91,9 @@ var parseGit = function(logArray) {
 			}
 		}
 		message = message.split("\"")[1];
-		console.log(hash);
+		/*console.log(hash);
 		console.log(date);
-		console.log(message);
+		console.log(message);*/
 		
 		var oneLog = new GitLog(hash, new Date(date), message);
 		output.push(oneLog);
