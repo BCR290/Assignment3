@@ -10,7 +10,7 @@
 
 function returnObjectLiteral() {
   //your code here
-  return undefined; //Modify ONLY this line
+  return petfood = {type: "Goldfish", brand: "Pepperidge Farm", flavor: "Cheddar", count: 2000}; ; //Modify ONLY this line
   //end your code
 }
 
